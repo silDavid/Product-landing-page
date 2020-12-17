@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">    <link rel="stylesheet" href="styles.css">
+
+    <title>Product Landing Page</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg sticky-top navbar-light">
+        <div class="container d-flex justify-content-center align-items-center">
+          <a class="navbar-brand" href="">
+            <img src="./page images/logo.png" class="d-inline-block align-top" alt="" width="450" height="80">
+          </a>
+          <button class="navbar-toggler m-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+              <li class="nav-item px-3">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item px-3">
+                <a class="nav-link" href="#features">Features</a>              
+            </li>
+              <li class="nav-item px-3">
+                <a class="nav-link" href="#buy">Buy</a>              
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+
+    <div class="container py-5" id="about">
+        <div class="row align-items-center justify-content-center py-5">
+            <div class="col-md-6">
+                <h1>Audio-Technica ATH-M50xBT Bluetooth Headphones</h1>
+                <p>The ATH-M50xBT harnesses the legendary M50x studio sound for an exhilarating wireless listening experience, with exceptional clarity and deep, accurate bass response.
+                Utilising Bluetooth® wireless technology and 45 mm large-aperture drivers with rare-earth magnets and copper-clad aluminium wire voice coils, the ATH-M50xBT brings the coveted sonic signature of M50x to a wireless, on-the-go design.</p>
+            </div>
+            <div class="col-md-6">
+                <img src="./page images/ath-m50xbt_01.png" class="about-image"/> 
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <div id="carouselExampleIndicators" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                    <ol class="carousel-indicators">
+                      <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+                      <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+                      <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="./carousel/01.png" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./carousel/02.png" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./carousel/03.png" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./carousel/04.png" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./carousel/05.png" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./carousel/06.png" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid py-5" id="features">
+        <div class="row justify-content-center py-5">
+            <iframe
+                id="video"
+                src="https://www.youtube.com/embed/m84xlaN49ds"
+                allowfullscreen
+                >
+            </iframe>
+        </div>
+    </div>
+
+    <div class="container bg-light rounded mb-5">
+        <div class="accordion accordion-flush" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button collapsed p-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                    Features
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <ul>
+                            <li>Wireless, on-the-go design delivers the same critically acclaimed sonic performance as the original ATH-M50x professional studio headphones</li>
+                            <li>Touch control provides convenient access to voice assist</li>
+                            <li>Mic and button controls built into the earcup allow for easy handling of calls, music playback and volume adjustment</li>
+                            <li>Proprietary 45 mm large-aperture drivers deliver exceptional clarity throughout an extended frequency range, with deep, accurate bass response</li>
+                            <li>Over-ear design for excellent sound isolation in loud environments</li>
+                            <li>Professional-grade earpad and headband material for long-lasting durability and comfort</li>
+                            <li>Up to 40 hours of continuous use on a full charge</li>
+                            <li>Compatible with aptX and AAC codecs</li>  
+                        </ul>        
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed p-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                    Specifications
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <table class="table table-secondary">
+                            <thead>
+                            <tr>
+                                <th scope="col">Headphones</th>
+                                <th scope="col"></th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <th scope="row">Design</th>
+                                <td >Closed-back dynamic</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Driver Diameter</th>
+                                <td>45 mm</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Frequency Response</th>
+                                <td>15 – 28,000 Hz</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Battery Life</th>
+                                <td>Approx. 40 hours continuous use</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Charging Time</th>
+                                <td>Approx. 7 hours (for 0-100% charge)</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Microphone</th>
+                                <td>Omnidirectional condenser</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Weight</th>
+                                <td>310 g</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Communication System</th>
+                                <td>Bluetooth Version 5.0</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Operating Range</th>
+                                <td>Line of sight – approx. 10 m (33′)</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed p-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    What's in the box?
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <table class="table table-secondary">
+                            <thead>
+                            <tr>
+                                <th scope="col">ATH-M50xBT</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <th scope="row">Protective pouch</th>
+                            </tr>
+                            <tr>
+                                <th scope="row">Detachable 1.2 m iS controller cable with mic</th>
+                            </tr>
+                            <tr>
+                                <th scope="row">30 cm USB charging cable</th>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="buy">
+        <div class="row align-items-center justify-content-center py-5">
+            <div class="col-md-6 buy-text text-center">
+                <label>ATH-M50xBT<small>(Wireless Over-Ear Headphones)</small></label>
+                <p>199,00 €</p>
+                <select class="form-select m-2" aria-label="Default select example">
+                    <option selected>Select one</option>
+                    <option value="Black">Black</option>
+                  </select>
+                <button type="button" class="btn btn btn-outline-secondary px-3">Add to bag</button>    
+            </div>
+            <div class="col-md-6">
+                <img src="./page images/ath-m50xbt_05.png" class="buy-image"/> 
+            </div>
+        </div>
+    </div>
+   
+
+    <div class="container-fluid bg-light">
+        <div class="row justify-content-center text-center align-items-center p-5">
+            <div class="col-xxl-4 col-md-12 p-5">
+                <img src="./page images/logo.png" class="d-inline-block align-top" alt="" width="400" height="70">
+                <hr>
+                <p><br>Made with true Japanese Quality
+                    <br>Founded in Japan in 1962</p>
+            </div>
+            <div class="col-lg-4 p-5">
+                <h1>Contact</h1>
+                <hr>
+                <p>
+                    <br>1221 Commerce Drive
+                    <br>Stow, Ohio 44224
+                    <br>Tel: 330-686-2600
+                    <hr>
+                    <br>Contact Email Address
+                    <br>contact@audio-technica.com
+                </p>
+            </div>
+            
+            <div class="col-lg-4 p-5">
+                <form>
+                    <label for="exampleInputEmail1" class="form-label fs-3">Subscribe to our Newsletter</label>
+                    <input type="email" class="form-control mw-100 m-2" placeholder="Enter your email address...">
+                    <button type="submit" class="btn btn-outline-secondary px-3">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,120 @@
+@import "https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&display=swap";
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Baloo Tamma 2", sans-serif;
+    background-color: #f1f2f6;
+}
+
+nav {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 5rem 2rem 1rem 2rem;
+}
+
+.navbar-collapse {
+    max-width: 400px;
+    font-weight: bold;
+    font-size: 1.5rem; 
+    margin-left: 8rem;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+} 
+
+.about-image {
+    max-width: 130%;
+    height: auto; 
+}
+
+#video {
+    width: 1600px; 
+    height: 800px;
+}
+
+.accordion-body {
+    margin: 2% 20% 2% 20%;
+}
+
+.accordion-button {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.accordion-button:focus,.accordion-button:active {
+    outline: none;
+    background-color: inherit; 
+    color: inherit;
+    box-shadow: none;
+    border-color: inherit;
+    border-top: 0;
+ }
+
+.buy-text {
+    font-size: 1.5rem;
+}
+
+.buy-image {
+    max-width: 130%;
+    height: auto;
+}
+
+/* form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 10% 5% 10%;
+    border: 2px solid white;
+    background-color: white;
+}
+
+form label {
+    font-size: 1.7vw;
+}
+
+form input {
+    margin: 7px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+} */
+
+@media (max-width: 576px) {
+
+}
+  
+@media (max-width: 768px) {
+    .accordion-body {
+        margin: 2% 0% 2% 0%;
+    }
+    .about-image {
+        max-width: 100%;
+        height: auto;
+    
+    }
+    .buy-image {
+        max-width: 100%;
+        height: auto;
+    
+    }
+}
+
+@media (max-width: 992px) {
+    .accordion-body {
+        margin: 2% 10% 2% 10%;
+    }
+    .navbar-collapse {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 1300px) {
+
+}
